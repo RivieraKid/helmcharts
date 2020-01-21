@@ -1,0 +1,9 @@
+categories:
+- Media
+questions:
+- variable: namespace
+default: "plexht"
+description: "Namespace to install Plex into"
+type: string
+required: true
+label: "Namespace"
