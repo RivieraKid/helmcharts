@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: rivierakid/samba-adc
   tag: stable
-  pullPolicy: always
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
