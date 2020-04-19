@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: rivierakid/samba-adc
   tag: stable
-  pullPolicy: IfNotPresent
+  pullPolicy: always
 
 imagePullSecrets: []
 nameOverride: ""
